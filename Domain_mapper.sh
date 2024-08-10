@@ -1,3 +1,4 @@
+# Made by Omer Shor
 #!/bin/bash
 
 
