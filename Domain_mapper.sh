@@ -992,7 +992,7 @@ if [ $expl == Y ] || [ $expl == y ]
 
 				echo "[#] Starting Advanced Exploitation"
 				echo "[#] Starting a NSE vulnerability scanning script"
-#				nmap -Pn -sV --script=vuln $Domain_ip > vuln_scan_$TS
+				nmap -Pn -sV --script=vuln $Domain_ip > vuln_scan_$TS
 				echo "[#] Starting a password spraying to identify weak credentials"
 				if [ $users_list == 1 ]
                                         then
